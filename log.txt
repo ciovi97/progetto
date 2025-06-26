@@ -1,0 +1,42 @@
+[1750532068] [rescuers.conf] [PARSING] Riga letta: [Pompieri][10][8][100;200]
+
+[1750532068] [rescuers.conf] [PARSING] Registrazione 10 unità di Pompieri con velocità 8 e base in [100,200]
+[1750532068] [rescuers.conf] [PARSING] Riga letta: [Ambulanza][15][10][50;50]
+
+[1750532068] [rescuers.conf] [PARSING] Registrazione 15 unità di Ambulanza con velocità 10 e base in [50,50]
+[1750532068] [rescuers.conf] [PARSING] Riga letta: [Polizia][12][8][20;40]
+
+[1750532068] [rescuers.conf] [PARSING] Registrazione 12 unità di Polizia con velocità 8 e base in [20,40]
+[1750532068] [rescuers.conf] [PARSING] Riga letta: [Carabinieri][10][10][200;100]
+[1750532068] [rescuers.conf] [PARSING] Registrazione 10 unità di Carabinieri con velocità 10 e base in [200,100]
+[1750532068] [rescuers.conf] [PARSING] PARSING RESCUERS COMPLETATO! Caricate 47 tipologie di soccorritori
+[1750532068] [emergency_type.conf] [PARSING] Riga letta: [Allagamento] [1] Pompieri:1,5;Ambulanza:1,2;
+
+[1750532068] [emergency_type.conf] [PARSING] Tipo di emergenza: Allagamento con priorità: 1. Richiede:
+[1750532068] [] [] - 1 unità di Pompieri che impiegano 5 secondi per l'emergenza
+[1750532068] [] [] - 1 unità di Ambulanza che impiegano 2 secondi per l'emergenza
+[1750532068] [emergency_type.conf] [PARSING] Riga letta: [Incendio] [2] Pompieri:2,8;Ambulanza:3,1;
+
+[1750532068] [emergency_type.conf] [PARSING] Tipo di emergenza: Incendio con priorità: 2. Richiede:
+[1750532068] [] [] - 2 unità di Pompieri che impiegano 8 secondi per l'emergenza
+[1750532068] [] [] - 3 unità di Ambulanza che impiegano 1 secondi per l'emergenza
+[1750532068] [emergency_type.conf] [PARSING] Riga letta: [Spaccio] [0] Carabinieri:2,4;Polizia:1,3;
+
+[1750532068] [emergency_type.conf] [PARSING] Tipo di emergenza: Spaccio con priorità: 0. Richiede:
+[1750532068] [] [] - 2 unità di Carabinieri che impiegano 4 secondi per l'emergenza
+[1750532068] [] [] - 1 unità di Polizia che impiegano 3 secondi per l'emergenza
+[1750532068] [emergency_type.conf] [PARSING] Riga letta: [Incidente] [1] Ambulanza:3,2;Pompieri:2,10; 
+
+[1750532068] [emergency_type.conf] [PARSING] Tipo di emergenza: Incidente con priorità: 1. Richiede:
+[1750532068] [] [] - 3 unità di Ambulanza che impiegano 2 secondi per l'emergenza
+[1750532068] [] [] - 2 unità di Pompieri che impiegano 10 secondi per l'emergenza
+[1750532068] [emergency_type.conf] [PARSING] Riga letta: [Sommossa] [2] Polizia:3,8;Carabinieri:2,4;
+
+[1750532068] [emergency_type.conf] [PARSING] Tipo di emergenza: Sommossa con priorità: 2. Richiede:
+[1750532068] [] [] - 3 unità di Polizia che impiegano 8 secondi per l'emergenza
+[1750532068] [] [] - 2 unità di Carabinieri che impiegano 4 secondi per l'emergenza
+[1750532068] [emergency_type.conf] [PARSING] Riga letta: [Furto] [0] Carabinieri:3,6;Pompieri:1,3;
+[1750532068] [emergency_type.conf] [PARSING] Tipo di emergenza: Furto con priorità: 0. Richiede:
+[1750532068] [] [] - 3 unità di Carabinieri che impiegano 6 secondi per l'emergenza
+[1750532068] [] [] - 1 unità di Pompieri che impiegano 3 secondi per l'emergenza
+[1750532068] [emergency_type.conf] [PARSING] PARSING EMERGENZE COMPLETATO! Caricate 6 tipologie di emergenze
